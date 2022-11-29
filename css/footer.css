@@ -1,0 +1,33 @@
+.footer{
+    height: 200px;
+    margin-top: 10rem;
+}
+.redes-sociales{
+    margin-bottom: 3rem;
+    padding: 2rem;
+}
+.redes-sociales ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+.redes-sociales li:hover{
+    transform: scale(1.1);
+}
+.redes-sociales img{
+    width: 64px;
+}
+.copy{
+    text-align:center ;
+}
+/*mobile*/
+@media(max-width:480px){  
+    .redes-sociales ul{
+        padding: 1rem;
+    }
+    .copy p{
+        font-size: 1.2rem;
+    }
+}
