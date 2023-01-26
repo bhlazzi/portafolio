@@ -1,0 +1,52 @@
+:root{
+    --primero:white;
+    --segundo:black;
+    --tercero:#406882;
+
+    --fuentetitulo:;
+    --fuenteparrafo:;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem aproximado 10px*/
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+/*generales*/
+body{
+    width: 100vw;
+}
+.no-margin{
+    margin: 0;
+
+}
+.no-padding{
+    padding: 0;
+}
+.contenedor{
+
+    max-width: 100%;
+}
+h1{
+    font-size: 3.5rem;
+    
+}
+h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 2rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--primero);
+}
